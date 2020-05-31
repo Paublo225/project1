@@ -1,0 +1,30 @@
+name: cupertino_store22
+description: Creating a Store in Cupertino widgets
+version: 1.0.0+1
+
+environment:
+  sdk: ^2.4.0
+  flutter: ^1.7.0
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.5.1
+  flutter_driver:
+    sdk: flutter
+  flutter_gherkin: ^0.0.12
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
